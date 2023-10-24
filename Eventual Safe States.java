@@ -10,7 +10,6 @@ class Solution {
         }
         return list;
     }
-    
     boolean dfs(List<List<Integer>> adj, int i, int[] vis){
         if(vis[i]==1) return false;
         if(vis[i]==2) return true;
